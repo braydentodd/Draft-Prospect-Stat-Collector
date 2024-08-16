@@ -11,10 +11,9 @@ function createMenu() {
 }
 
 function UpdateTable() {
-  var STARTROW = 658; // Variable starting row
-
   // Collects Spreadsheet Data
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var STARTROW = sheet.getRange(1, 33).getValue(); // Variable starting row
   var lastRow = sheet.getLastRow();
   var playerNames = sheet.getRange(STARTROW, 3, lastRow - STARTROW + 1).getValues().flat(); // filters through player name column
 
