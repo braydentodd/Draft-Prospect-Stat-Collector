@@ -14,7 +14,7 @@ A Google Apps Script program that populates a Google Sheet with up-to-date NBA D
 4) upload the code.js file
 5) run it
 
-## The process:
+## The Process:
 1) write the players' names in the C column and links to the players' RealGM profile page in the AB column
 2) update the starting row function (necessary if there are too many rows to run before encountering exceeding time limit)
 3) run the "Update Table" function that is created when the script is ran for the first time
