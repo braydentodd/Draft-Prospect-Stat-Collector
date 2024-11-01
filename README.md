@@ -8,10 +8,10 @@ A Google Apps Script program that populates a Google Sheet with up-to-date NBA D
 - allows you to reassign and keep the position you feel is most accurate for the player
  
 ## Setup:
-1) make a copy of the linked formatted sheet
+1) make a copy of the [linked formatted sheet](https://docs.google.com/spreadsheets/d/1UZHyLjPSVlDFwF74wPH3G7IQMpHQR0sCth89FfjEV6k/edit?usp=sharing)
 2) select extensions in the menu above the sheet
 3) select Apps Script
-4) upload the code.js file
+4) upload the [code.js file](https://github.com/braydentodd/NBA-Draft-Prospect-Stat-Collector/blob/main/Code.js)
 5) run it
 
 ## The Process:
